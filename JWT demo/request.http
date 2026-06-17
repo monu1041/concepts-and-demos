@@ -1,0 +1,6 @@
+## This file contains HTTP requests that can be used to test the authentication and authorization functionality of the application.
+curl -X POST http://localhost:3000/login
+
+### use the token from the login response to access the profile endpoint
+curl http://localhost:3000/profile \
+-H "Authorization: Bearer TOKEN_HERE"

@@ -1,0 +1,4 @@
+### Request to get test with wrong token using jwt.io
+### temper using jwt.io to generate a token with wrong payload
+curl http://localhost:4000/profile \
+-H "Authorization: Bearer YOUR_TOKEN_HERE"
